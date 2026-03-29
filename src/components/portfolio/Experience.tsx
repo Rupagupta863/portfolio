@@ -6,17 +6,17 @@ import { Briefcase, GraduationCap, Calendar } from "lucide-react";
 
 const items = [
   {
-    title: "Software Engineer",
-    org: "GemsNY IT Solution",
+    title: "Software Engineer – Frontend",
+    org: "GemsNY IT Solutions • Jaipur, Rajasthan, India",
     period: "Jan 2025 – Present",
-    desc: "Building scalable web solutions using React and Next.js. Focused on performance optimization and intuitive UI/UX.",
+    desc: "Engineered an Employee Task Management tool using React.js and Next.js enabling real-time task assignment, status tracking, and role-based UI views. Integrated REST APIs with loading states, error boundaries, and optimistic UI updates. Improved performance by ~30% using lazy loading, memoization, and optimized re-renders. Built responsive UI using Tailwind CSS and managed state via React Context API. Collaborated in Agile sprint cycles with backend engineers and stakeholders.",
     icon: Briefcase,
     type: "work",
   },
   {
-    title: "Master of Computer Applications",
+    title: "Master of Computer Applications (MCA)",
     org: "Manipal University Jaipur",
-    period: "2023 – 2025",
+    period: "Aug 2023 – May 2025",
     desc: "Specialized in software engineering and web technologies. CGPA: 9.12.",
     icon: GraduationCap,
     type: "edu",

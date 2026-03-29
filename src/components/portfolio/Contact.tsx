@@ -73,7 +73,7 @@ export default function Contact() {
             <div className="mt-8 flex gap-3">
               {[
                 { icon: Github, href: "https://github.com/Rupagupta863" },
-                { icon: Linkedin, href: "https://www.linkedin.com/in/rupa-kumari-96162b27b/" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/rupakumari863" },
               ].map((s, i) => (
                 <a
                   key={i}

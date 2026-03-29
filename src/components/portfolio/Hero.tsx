@@ -5,7 +5,7 @@ import { Github, Linkedin, ArrowDown, Mail } from "lucide-react";
 
 const socials = [
   { icon: Github, href: "https://github.com/Rupagupta863", label: "GitHub" },
-  { icon: Linkedin, href: "https://www.linkedin.com/in/rupa-kumari-96162b27b/", label: "LinkedIn" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/rupakumari863", label: "LinkedIn" },
   { icon: Mail, href: "mailto:rupagupta0863@gmail.com", label: "Email" },
 ];
 

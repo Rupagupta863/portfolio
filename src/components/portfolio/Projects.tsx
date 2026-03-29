@@ -7,38 +7,29 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "Employee Task Manager",
-    tech: ["Next.js", "Tailwind", "TypeScript"],
+    title: "Employee Task Management Application",
+    tech: ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "REST APIs"],
     description:
-      "Enterprise dashboard for task orchestration, progress tracking, and deadline management.",
+      "Built a full-stack-ready platform with JWT authentication and role-based UI access for real-time task tracking across employee workflows. Developed a responsive UI using Tailwind CSS with reusable TypeScript components. Integrated REST APIs for CRUD operations with filtering and search by status, priority, and assignee. Implemented Local Storage persistence to maintain session state.",
     liveUrl: null,
     category: "fullstack",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop",
   },
   {
-    title: "Lumina Image Gallery",
-    tech: ["React", "Framer Motion", "Tailwind"],
+    title: "E-Commerce Platform",
+    tech: ["React.js", "Node.js", "MongoDB", "Mongoose", "Express.js"],
     description:
-      "A cinematic image exploration experience with fluid transitions and dynamic layouts.",
-    liveUrl: "https://rupagupta863.github.io/image-gallery/",
-    category: "frontend",
-    image: "https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=800&auto=format&fit=crop",
+      "Built a full-stack e-commerce platform implementing reusable component architecture and client-side routing. Designed a responsive UI with strong Core Web Vitals performance. Backend powered by Node.js, Express, and MongoDB for product and order management.",
+    liveUrl: null,
+    category: "fullstack",
+    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=800&auto=format&fit=crop",
   },
   {
-    title: "Zenith To-Do",
-    tech: ["React", "Context API", "Tailwind"],
+    title: "Personal Portfolio Website",
+    tech: ["React.js", "Next.js", "Tailwind CSS"],
     description:
-      "A minimalist productivity tool focused on cognitive flow and task prioritization.",
-    liveUrl: "https://rupagupta863.github.io/todo_list/",
-    category: "frontend",
-    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=800&auto=format&fit=crop",
-  },
-  {
-    title: "Personal Portfolio v1",
-    tech: ["HTML", "CSS", "JavaScript"],
-    description:
-      "My first personal portfolio showcasing projects and skills with responsive design.",
-    liveUrl: "https://rupagupta863.github.io/rupa_portfolio/",
+      "Designed and deployed a fully responsive portfolio using Next.js and Tailwind CSS showcasing projects and skills. Focused on performance and clean component-driven architecture.",
+    liveUrl: "https://portfolio-f2uk.vercel.app/",
     category: "frontend",
     image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=800&auto=format&fit=crop",
   },

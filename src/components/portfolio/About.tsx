@@ -12,8 +12,8 @@ const features = [
 ];
 
 const stats = [
-  { value: "2+", label: "Years Experience" },
-  { value: "15+", label: "Projects Delivered" },
+  { value: "1+", label: "Year Experience" },
+  { value: "3+", label: "Projects" },
   { value: "10+", label: "Technologies" },
 ];
 
@@ -42,17 +42,7 @@ export default function About() {
 
             <div className="space-y-4 text-[var(--muted-foreground)] text-base leading-relaxed max-w-2xl mt-6">
               <p>
-                I&apos;m a frontend developer passionate about building interfaces
-                that are not only functional but{" "}
-                <span className="text-[var(--foreground)] font-medium">thoughtfully crafted</span>.
-                My work sits at the intersection of clean engineering and visual design.
-              </p>
-              <p>
-                Specializing in{" "}
-                <span className="text-[var(--foreground)] font-medium">React</span> and{" "}
-                <span className="text-[var(--foreground)] font-medium">Next.js</span>, I
-                focus on creating performant, accessible applications that users genuinely
-                enjoy interacting with.
+                Frontend Developer with 1+ year of production experience at GemsNY IT Solutions, specializing in React.js and Next.js. Delivered a 30% improvement in page load performance through lazy loading and component optimization.
               </p>
             </div>
 
