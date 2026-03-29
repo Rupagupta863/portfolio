@@ -39,7 +39,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.15 }}
           className="text-4xl md:text-5xl lg:text-6xl font-[var(--font-display)] font-bold tracking-tight leading-[1.1] mb-6"
         >
-          Hi, I&apos;m <span className="gradient-text">Rupa Kumari</span>
+          Hi, I&apos;m <span className="gradient-text">Rupa Gupta</span>
           <br />
           <span className="text-[var(--muted-foreground)] font-semibold text-3xl md:text-4xl lg:text-[2.75rem]">
             Frontend Developer

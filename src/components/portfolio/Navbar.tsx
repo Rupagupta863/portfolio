@@ -7,6 +7,7 @@ import { Menu, X, Moon, Sun } from "lucide-react";
 const navLinks = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
+  { label: "Performance", href: "#performance" },
   { label: "Projects", href: "#projects" },
   { label: "Experience", href: "#experience" },
   { label: "Contact", href: "#contact" },
@@ -60,12 +61,14 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
-        <a
-          href="#"
-          className="font-[var(--font-display)] font-bold text-xl tracking-tight hover:opacity-80 transition-opacity"
-        >
-          <span className="gradient-text">R</span>upa
-          <span className="text-[var(--primary)]">.</span>
+        <a href="#" className="group relative flex items-center gap-2 font-[var(--font-display)] overflow-hidden hover:opacity-100">
+          <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-[var(--primary)]/10 text-[var(--primary)] font-bold text-lg border border-[var(--primary)]/20 group-hover:bg-[var(--primary)] group-hover:text-white group-hover:shadow-[0_0_15px_var(--primary)] transition-all duration-300">
+            R
+          </div>
+          <div className="flex flex-col leading-none">
+            <span className="font-extrabold text-sm tracking-widest text-[var(--foreground)] mt-0.5">RUPA</span>
+            <span className="font-bold text-[9px] tracking-[0.2em] text-[var(--muted-foreground)] group-hover:text-[var(--primary)] transition-colors duration-300 uppercase">Gupta</span>
+          </div>
         </a>
 
         {/* Desktop */}
